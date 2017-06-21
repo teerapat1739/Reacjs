@@ -14,7 +14,7 @@ export default class Home extends Component {
     return (
       <Container>
         <HeroImage>
-          <h1>Chu Hoang Son</h1>
+          <h1>Teerpat Thong-o</h1>
           <h2>Front-end Developer</h2>
         </HeroImage>
         {/*<Image src={require('../assets/hero.gif')} alt="hero-image"/>*/}
