@@ -29,3 +29,7 @@ export const Index = style.div`
       transform:translateY(-40%);
     }
 `;
+
+export const ImageContainer =  style.div`
+    width: 800px;
+`;

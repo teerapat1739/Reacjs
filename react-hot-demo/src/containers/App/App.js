@@ -4,9 +4,10 @@ import { Background } from './App.style';
 class App extends Component {
   render() {
     return (
-    <Background>
+      <div>
+    <Background/>
         {this.props.children}
-    </Background>
+    </div>
     );
   }
 }
