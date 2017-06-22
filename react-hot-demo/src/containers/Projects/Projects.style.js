@@ -1,5 +1,5 @@
 import style from 'styled-components';
-import {yellow} from '../../theme/variables';
+import {yellow,red} from '../../theme/variables';
 
 export const ImageButton = style.div`
     cursor:pointer;
@@ -26,10 +26,17 @@ export const Index = style.div`
       font-weight: bold;
       background-color: ${yellow};
       opacity:0.8;
-      transform:translateY(-40%);
+      transform:translateY(-20%);
     }
 `;
 
 export const ImageContainer =  style.div`
-    width: 800px;
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+`;
+
+export const Title = style.h1`
+  color: ${red};
+  font-weight: bold;
 `;

@@ -4,6 +4,7 @@ import {
         ImageButton,
         Index,
         ImageContainer,
+        Title,
 } from './Projects.style';
 import { Container, Relative,Flex } from '../../theme/grid';
 import {A} from '../../theme/types';
@@ -13,13 +14,14 @@ class Projects extends Component {
   render() {
     return(
       <Container>
-        <Relative>
+      <Title>Open-source Projects</Title>
+        <Relative marginTop="100px" marginBottom="50px">
           <Index>
               <h1>01</h1>
           </Index>
           <h1>npm install --save <A>react-zoomy</A></h1>
         </Relative>
-        <Flex justify={'center'}>
+        <Flex justify={'center'} marginBottom="5em">
         <Zoomy
           imageUrl={require('../../assets/Jump.jpg')}
             renderThumbnail={({ showImage }) =>
@@ -36,17 +38,7 @@ class Projects extends Component {
             }}
             />
         </Flex>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <Relative>
+        <Relative marginBottom="100px">
           <Index>
               <h1>02</h1>
           </Index>
@@ -54,7 +46,7 @@ class Projects extends Component {
         </Relative>
         <ImageContainer>
           <ParallaxImage
-            reeduceHeight={1/3}
+            reduceHeight={1/3}
             src={require('../../assets/Jump.jpg')} />
         </ImageContainer>
         <br/>
