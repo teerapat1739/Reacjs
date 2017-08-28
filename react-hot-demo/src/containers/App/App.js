@@ -13,7 +13,6 @@ class App extends Component {
   render() {
     return (
       <div>
-    <Background/>
     <NavigationBar/>
         {this.props.children}
     </div>
